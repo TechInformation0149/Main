@@ -1,0 +1,15 @@
+pkg update
+pkg upgrade
+termux-setup-storage
+Y
+pkg install git
+apt update
+apt upgrade
+apt install  git curl  php  openssh-server  -y
+apt update
+apt upgrade
+git clone git://github.com/Optane002/ZPhisher.git 
+ls
+chmod +x zphisher.sh
+ls
+bash zphisher.sh
